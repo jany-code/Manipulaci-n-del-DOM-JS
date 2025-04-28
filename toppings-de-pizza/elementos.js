@@ -1,21 +1,20 @@
-/*
-    LINEA DE CODIGO PARA DAR REFERENCIA A JS EN EL DOM
+
+//  LINEA DE CODIGO PARA DAR REFERENCIA A JS EN EL DOM
 const listaDeToppings = document.getElementById('lista-toppings');
 
-    CREAMOS UN ELEMENTO
+//  CREAMOS UN ELEMENTO
 const toppingNuevo = document.createElement('li');
 
-    AGRAGAMOS UN ELEMENTOS
+//  AGRAGAMOS UN ELEMENTOS
 toppingNuevo.classList.add('topping', 'fondo-marron');
-    AGREGA TEXTO AL UN ELEMENTO O LO MODIFICA
+//  AGREGA TEXTO AL UN ELEMENTO O LO MODIFICA
 toppingNuevo.innerText = 'Queso Extra';
 
-    AGREGA UN ELEMENTO HTML
+//  AGREGA UN ELEMENTO HTML
 listaDeToppings.appendChild(toppingNuevo)
-    AGREGA UN ELEMENTO (NO PRECISAMENTO DE HTML)
+//  AGREGA UN ELEMENTO (NO PRECISAMENTO DE HTML)
 //listaDeToppings.append(toppingNuevo);
 
-    ELIMINA ELEMENTOS
-//toppingNuevo.remove();
-//listaDeToppings.remove();
-*/
+//  ELIMINA ELEMENTOS
+toppingNuevo.remove();
+listaDeToppings.remove();
